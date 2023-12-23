@@ -1,3 +1,6 @@
 soong_namespace {
-    imports: ["kernel/samsung/sm8550"]
+    imports: [
+    "kernel/samsung/sm8550",
+    "hardware/qcom-caf/sm8550"
+    ]
 }
