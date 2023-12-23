@@ -34,7 +34,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <stdlib.h>
 #include <string.h>
 #include <fcntl.h>
-
+#ifndef in_addr_t
+typedef uint32_t in_addr_t;
+#endif
 #include <arpa/inet.h>
 #include <netinet/in.h>
 #include <errno.h>
